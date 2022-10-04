@@ -1,0 +1,19 @@
+body {
+    background-color: #f1faee;
+    font-family: "Cambria Math";
+    color:rgb(114, 167, 114);
+}
+img{
+    height:120px;
+    width: 100px;
+    box-align: center;
+}
+#udemy{
+    color:yellowgreen
+}
+#1>#udemy::first-letter{
+    font-size: 50px;
+}
+strong#Calc{
+    color: rgb(80, 80, 209);
+}
