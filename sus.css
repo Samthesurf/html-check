@@ -9,10 +9,10 @@ img{
     box-align: center;
 }
 #udemy{
-    color:yellowgreen
+    color:yellowgreen;
 }
-#1>#udemy::first-letter{
-    font-size: 50px;
+p.udemy::first-letter{
+    font-size: 26px;
 }
 strong#Calc{
     color: rgb(80, 80, 209);
