@@ -1,19 +1,61 @@
 body {
-    background-color: #f1faee;
-    font-family: "Cambria Math";
-    color:rgb(114, 167, 114);
+  background-color: #f1faee;
+  font-family: "Cambria Math";
+  color: rgb(114, 167, 114);
+  transform: translateX(20px);
 }
-img{
-    height:120px;
-    width: 100px;
-    box-align: center;
+p,section{
+    font-size: 20px;
 }
-#udemy{
-    color:yellowgreen;
+.clip_path{
+    position: relative;
+    left:450px; top:-100px;
+    height:124px;
+    width: 124px;
+    background: lightblue;
+    box-sizing: border-box;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
-p.udemy::first-letter{
-    font-size: 26px;
+
+img#me {
+  height: 120px;
+  width: 120px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  position: absolute;
+  top:2px;left: 2px;right: 2px;bottom: 2px;
 }
-strong#Calc{
-    color: rgb(80, 80, 209);
+
+#Calculus {
+  width: 550px;
+  height: 250px;
+  border: 3px solid white;
+  border-radius: 15%;
+  transform: translateX(400px);
+  box-shadow: ;
+}
+
+#udemy {
+  color: yellowgreen;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p.udemy::first-letter {
+  font-size: 26px;
+}
+
+strong#Calc {
+  color: rgba(80, 80, 209, 0.8);
+}
+
+h1 {
+  font-size: 40px;
+  transform: translate(600px, 20px);
+  text-decoration: underline;
 }
