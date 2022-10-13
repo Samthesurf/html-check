@@ -3,6 +3,7 @@ body {
   font-family: "Cambria Math";
   color: rgb(114, 167, 114);
   transform: translateX(20px);
+  background-image: url('background_pic.jpg');
 }
 p,section{
     font-size: 20px;
@@ -58,4 +59,10 @@ h1 {
   font-size: 40px;
   transform: translate(600px, 20px);
   text-decoration: underline;
+}
+
+#box{
+  border:2px solid goldenrod;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 5px rgb(252, 74, 74);
 }
