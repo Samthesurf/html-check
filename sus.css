@@ -2,8 +2,7 @@ body {
   background-color: #f1faee;
   font-family: "Cambria Math";
   color: rgb(114, 167, 114);
-  transform: translateX(20px);
-  background-image: url('background_pic.jpg');
+  background-image: url('dynamic-wang-YqtXKaBzz1s-unsplash.jpg');
 }
 p,section{
     font-size: 20px;
@@ -36,7 +35,7 @@ img#me {
 }
 
 #udemy {
-  color: yellowgreen;
+  color: rgb(100, 126, 48);
 }
 
 a {
@@ -61,8 +60,8 @@ h1 {
   text-decoration: underline;
 }
 
-#box{
+#box, .put_shadow{
   border:2px solid goldenrod;
   border-radius: 20px;
-  box-shadow: 0 0 5px 5px rgb(252, 74, 74);
+  box-shadow: 0 0 5px 5px rgb(136, 94, 15);
 }
