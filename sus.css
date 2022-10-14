@@ -23,7 +23,7 @@ p,section{
 
 img#me {
   height: 8.78vmax;
-  width: 120px;
+  width: 120px; /*fix the width of the image*/
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   position: absolute;
   top:2px;left: 2px;right: 2px;bottom: 2px;
