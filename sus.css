@@ -2,7 +2,8 @@ body {
   background-color: #f1faee;
   font-family: "Cambria Math";
   color: rgb(201, 253, 201);
-  background-image: url('girlblue.jpg');
+  background-image: url('background_pic.jpg');
+  background-size: cover;
 }
 p,section{
     font-size: 20px;
