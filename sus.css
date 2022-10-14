@@ -11,29 +11,33 @@ p,section{
     font-size: 20px;
 }
 .clip_path{
+    display: block;
     position: relative;
-    left:250px; top:-100px;
-    height:124px;
-    width: 124px;
+    left:21%; top:-100px;
+    height:9.13vmax;
+    width: 10%;
     background: rgb(58, 131, 155);
     box-sizing: border-box;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
 
 img#me {
-  height: 120px;
+  height: 8.78vmax;
   width: 120px;
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   position: absolute;
   top:2px;left: 2px;right: 2px;bottom: 2px;
+  display: block;
+  width: 97%;
 }
 
 #Calculus {
-  max-width: 34.37rem;
-  max-height: 15.625rem;
+  display: block; 
+  width: 50%;
+  height: 15.625rem;
   border: 3px solid white;
   border-radius: 15%;
-  transform: translateX(400px);
+  transform: translateX(63%);
 }
 
 #udemy {
@@ -57,9 +61,11 @@ strong#Calc {
 }
 
 h1 {
-  font-size: 40px;
-  transform: translate(400px, 20px);
+  font-size: 2.5rem;
+  transform: translate(67%, 25%);
   text-decoration: underline;
+  display: block;
+  width: 50%;
 }
 
 #box, .put_shadow{
@@ -72,3 +78,4 @@ h1 {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
