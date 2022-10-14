@@ -4,6 +4,8 @@ body {
   color: rgb(201, 253, 201);
   background-image: url('background_pic.jpg');
   background-size: cover;
+  box-sizing: border-box;
+  padding: 0 1em;
 }
 p,section{
     font-size: 20px;
@@ -27,8 +29,8 @@ img#me {
 }
 
 #Calculus {
-  width: 550px;
-  height: 250px;
+  max-width: 34.37rem;
+  max-height: 15.625rem;
   border: 3px solid white;
   border-radius: 15%;
   transform: translateX(400px);
@@ -64,4 +66,9 @@ h1 {
   border:2px solid goldenrod;
   border-radius: 20px;
   box-shadow: 0 0 5px 5px rgb(136, 94, 15);
+}
+#box{
+  max-width: 60 rem;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
