@@ -1,0 +1,67 @@
+body {
+  background-color: #f1faee;
+  font-family: "Cambria Math";
+  color: rgb(201, 253, 201);
+  background-image: url('background_pic.jpg');
+  background-size: cover;
+}
+p,section{
+    font-size: 20px;
+}
+.clip_path{
+    position: relative;
+    left:250px; top:-100px;
+    height:124px;
+    width: 124px;
+    background: rgb(58, 131, 155);
+    box-sizing: border-box;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+img#me {
+  height: 120px;
+  width: 120px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  position: absolute;
+  top:2px;left: 2px;right: 2px;bottom: 2px;
+}
+
+#Calculus {
+  width: 550px;
+  height: 250px;
+  border: 3px solid white;
+  border-radius: 15%;
+  transform: translateX(400px);
+}
+
+#udemy {
+  color: rgb(100, 126, 48);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p.udemy::first-letter {
+  font-size: 26px;
+}
+
+strong#Calc {
+  color: rgba(80, 80, 209, 0.8);
+}
+
+h1 {
+  font-size: 40px;
+  transform: translate(400px, 20px);
+  text-decoration: underline;
+}
+
+#box, .put_shadow{
+  border:2px solid goldenrod;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 5px rgb(136, 94, 15);
+}
