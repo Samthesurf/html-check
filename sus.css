@@ -72,8 +72,6 @@ h1 {
   border:2px solid goldenrod;
   border-radius: 20px;
   box-shadow: 0 0 5px 5px rgb(136, 94, 15);
-}
-#box{
   max-width: 60 rem;
   margin: 0 auto;
   padding: 0 1rem;
