@@ -14,21 +14,20 @@ p,section{
     display: block;
     position: relative;
     left:21%; top:-100px;
-    height:9.13vmax;
-    width: 10%;
+    min-height:4.5em; max-height: 6.43em;
+    min-width: 4.6em; max-width: 5em;
     background: rgb(58, 131, 155);
     box-sizing: border-box;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
 
 img#me {
-  height: 8.78vmax;
-  width: 120px; /*fix the width of the image*/
+  min-height: 2.1em; max-height: 5.402rem;
+  min-width: 4.8em; ; max-width: 5.402em; /*fix the width of the image*/
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   position: absolute;
   top:2px;left: 2px;right: 2px;bottom: 2px;
   display: block;
-  width: 97%;
 }
 
 #Calculus {
@@ -61,8 +60,8 @@ strong#Calc {
 }
 
 h1 {
-  font-size: 2.5rem;
-  transform: translate(67%, 25%);
+  font-size: 6vh;
+  transform: translate(77%, 25%);
   text-decoration: underline;
   display: block;
   width: 50%;
